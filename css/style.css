@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 40px;
+    font-family: 'MuseoModerno', cursive;
+}
+header {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    color: black;
+}
+main {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 39%, rgba(75,75,75,1) 100%);
+}die
+footer {
+    background: rgb(0,0,0);
+    background: linear-grant(180deg, rgba(0,0,0,1) 39%, rgba(75,75,75,1) 100%);
+    padding: 20px 40px 40px 40px;
+    color: white;
+}
+
+#about{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 39%, rgba(75,75,75,1) 100%);
+    padding: 10px 50px;
+    text-align: center;
+    color: white;
+}
+#articles{
+    background: rgb(75,75,75);
+    background: linear-gradient(180deg, rgba(75,75,75,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 10px 50px;
+    color: white;
+}
+p {
+    text-align: justify;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+h1 {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-style: initial;
+}
+h2 {
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+ol {
+    list-style: non;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:active {
+    color: gray;
+}
+
+a:hover {
+    color: rgb(86, 86, 255);
+    text-decoration: underline;
+}
+
+a:focus {
+    color:  black;
+}
+
+8p:lang(en) {
+    8font-style: ;
+}
+
+8p:lang(ru) {
+    8font-style: ;
+}
+
+#content {
+    text-align: center;
+    padding: 10px 50px;
+    color: white;
+}
+table {
+    font-size: 50px;
+    font-family: 'MuseoModerno', cursive;
+}
+.inspiration-table {
+    border: solid 5px black;
+}
+.inspiration-table td {
+    padding: 20px;
+    border: solid 1px black;
+}
+.inspiration-table tr:nth-child(5n) {
+    font-weight: bold;
+    color:rgb(86, 86, 255);
+}
+#creator {
+    text-align: left;
+    padding: 10px 50px;
+}
